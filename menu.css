@@ -1,0 +1,113 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+section
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(img/R.jpg);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth; /* Añadir desplazamiento suave al hacer clic en enlaces internos */
+}
+
+
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo
+{
+    position: relative;
+    max-width: 150px;
+}
+header .navigation
+{
+    position: relative;
+    display: flex;
+}
+    header .navigation li
+{
+    list-style: none;
+}
+    header .navigation li a
+{
+    display: inline-block;
+    color: #fdfafa;
+    font-weight: 700;
+    text-decoration: none;
+    margin-left: 60px;
+}
+.content
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .textBox
+{
+    position: relative;
+    max-width: 700px;
+    margin-right: 20px;
+}
+.content .textBox h2
+{
+    color: #fff;
+    font-size: 3em;
+    margin-bottom: 10px;
+    line-height: 1.4em;
+    font-weight: 900;
+}
+.content .textBox p
+{
+    color: #f6ecec;
+    font-weight: 500;
+    font-size: 2em;
+    margin-bottom: 8px;
+    line-height: 1.4em;
+}
+.content .textBox a
+{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #0a0a0a;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.content .imgbox{
+    width: 300px;
+    height: 300px;
+    border-radius: ;
+}
+.marcas{
+        padding: 20px;
+        max-width: 800px;
+        margin: auto;
+
+}
